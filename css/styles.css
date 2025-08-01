@@ -1,0 +1,200 @@
+.container {
+    max-width: 1220px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    margin-top: 20px;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+}
+
+.nav-header ul{
+    list-style-type: none;
+    display: flex;
+    gap: 42px;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.select-header {
+    border: 0;
+    background: none;
+}
+
+.header-button {
+    width: 185px;
+    height: 65px;
+    background-color: #6B77E5;
+    color: white;
+}
+
+.header-button a {
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.input-form {
+    width: 279px;
+    height: 59px;
+    background-color: #EFEFF7;
+    padding-left: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.submit-button {
+    width: 184px;
+    height: 59px;
+    background-color: #4D6CE1;
+    box-shadow: 0px 5px 15px 0px #7468FF33;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.black-box {
+    margin: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    cursor: pointer;
+}
+
+
+
+.image-section {
+    max-width: 1920px;
+    width: 100%;
+    height: 580px;
+    /* background: linear-gradient(229.32deg, #6888FF 25.77%, #5E80FF 86.11%); */
+    background-image: url("../images/image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.image-section::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(64, 221, 182, 0.75);
+    backdrop-filter: blur(6px);
+}
+
+.image-section .title {
+    position: relative;
+    z-index: 2;
+}
+
+.card {
+    width: 300px;
+    height: 250px;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.green-box {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.green-box:hover {
+    background-color: yellow;
+    transition: 1.5s linear all;
+}
+
+/*hover first letter first line focus active first-child nth-child*/
+
+
+.text::first-letter {
+    font-size: 50px;
+}
+
+.text::first-line {
+    color: #6B77E5;
+}
+
+.input-form:focus {
+    border: 20px solid black;
+    color: #6B77E5;
+}
+
+
+.header-button a:active {
+    font-size: 50px;
+    color: red;
+}
+
+.ul-li li:first-child{
+    color: green;
+}
+
+.image-section :nth-child(2) {
+    color: green;
+}
+
+.ul {
+    font-size: 40px;
+    margin: 20px;
+}
+
+.ul li:before {
+    content: "";
+    display: inline-block;
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+    background-image: url("../images/Logo.svg");
+    /* background-color: red; */
+    border-radius: 50%;
+}
+
+.ul li::after {
+    content: "";
+}
+
+
+.en-text {
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "ALK Tommaso", sans-serif;
+}
+
+.ge-text {
+    font-family: "Firago", sans-serif;
+    font-size: 40px;
+    margin: 50px;
+    font-weight: 800;
+}

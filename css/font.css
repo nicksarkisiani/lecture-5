@@ -1,0 +1,14 @@
+
+
+
+@font-face {
+    font-family: "Firago", sans-serif;
+    src: url('../assets/fonts/FiraGO_OTF_1001/Roman/FiraGO-Medium.otf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Firago", sans-serif;
+    src: url('../assets/fonts/FiraGO_OTF_1001/Roman/FiraGO-Bold.otf');
+    font-weight: 800;
+}
